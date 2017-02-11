@@ -37,8 +37,7 @@ public class ClientConnection extends Thread {
 
 	// Adds the commands to array so it's easy to display with /help in chat
 	private void addCommands() {
-		commands.add(
-				"To join chat -> if you wish to join again after you left: Shut down chat window and then restart client program");
+		commands.add("To join chat -> if you wish to join again after you left: Shut down chat window and then restart client program");
 		commands.add("Broadcast message to all -> type message and press enter without any command first");
 		commands.add("/tell [insert username] [message] -> writes a private message to the user you've choosen");
 		commands.add("/list -> lists all the participants in chat");
@@ -87,7 +86,7 @@ public class ClientConnection extends Thread {
 		msgtoday.add("''If you know yourself, you should take time to play tennis.''");
 		msgtoday.add("''Green tomatoes - Chinese adverb (324 BC).''");
 		msgtoday.add("''Often times when you think there's no oxygen in a room, it's just warm.''");
-		msgtoday.add("''It's not easy when it's not easy''");
+		msgtoday.add("''Vasko is cool''");
 
 		Calendar c = Calendar.getInstance();
 		// ArrayList is from 0-6 but weekdays 1-7, hence the -1
