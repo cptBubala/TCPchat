@@ -86,7 +86,7 @@ public class ClientConnection extends Thread {
 		msgtoday.add("''If you know yourself, you should take time to play tennis.''");
 		msgtoday.add("''Green tomatoes - Chinese adverb (324 BC).''");
 		msgtoday.add("''Often times when you think there's no oxygen in a room, it's just warm.''");
-		msgtoday.add("''Vasko is not cool''");
+		msgtoday.add("''Vasko IS cool''");
 
 		Calendar c = Calendar.getInstance();
 		// ArrayList is from 0-6 but weekdays 1-7, hence the -1
